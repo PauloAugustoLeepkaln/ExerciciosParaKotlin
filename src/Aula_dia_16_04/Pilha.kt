@@ -45,6 +45,6 @@ fun main(){
     do{
         println("O user ${fila.removeFirst()} entrou no servidor")
         Thread.sleep(5000)
-    }while(!fila.isEmpty())
+    }while(fila.isNotEmpty())//Enquanto tiver gente na fila,
 
 }
