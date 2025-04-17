@@ -38,18 +38,7 @@ fun jogar(){
         var movimentoPC = computador()//movimento do PC
         println("O computador jogou: $movimentoPC")
 
-        when(jogada){
-            "PEDRA" -> {
-                pontos = pedra.luta(movimentoPC)
-            }
-            "PAPEL" -> {
-                pontos = tesoura.luta(movimentoPC)
-            }
-            "TESOURA" -> {
-                pontos = tesoura.luta(movimentoPC)
-            }
-        }
-        println("Você tem: $pontos pontos!")
+
         rodadas++ //no final da rodada incrementa
     }while(rodadas <= 3)
 }
