@@ -7,6 +7,10 @@ class Pilha {
         val pilha = LinkedList<String>()
 
         //Prateleira de produtos
-        pilha.push()
+        pilha.push("Sardinha")
+        pilha.push("Milho")
+        pilha.push("Molho de Tomate")
+
+
     }
 }
